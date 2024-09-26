@@ -1,0 +1,33 @@
+body {
+    background-color: #8ca460;
+    color: beige;
+    font-family: "Lora", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    margin: 0;
+}
+
+button {
+    background-color: beige;
+    color: black;
+    font-family: "Lora", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
